@@ -46,6 +46,7 @@ class Controller extends \yii\base\Controller
     {
         return $this->getView()->renderAjax($view, $params, $this);
     }
+    
 
     /**
      * Binds the parameters to the action.
